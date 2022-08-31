@@ -1,0 +1,38 @@
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.paper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.accordions {
+    flex-direction: column;
+}
+
+.text-card {
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.MuiAccordionSummary-content {
+    justify-content: center;
+}
+
+.expand-icon {
+    color: #ffa000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.Mui-expanded .expand-icon {
+    color: #6019d2;
+}
